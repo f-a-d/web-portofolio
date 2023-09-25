@@ -1,0 +1,33 @@
+body{
+    transition: all ease-in-out .3s;
+}
+
+.container:hover .image {
+    transform: translateY(120px);
+}
+
+.container:hover .text-1  {
+    opacity: 1;
+}
+
+.scroll {
+      animation: masuk 0.5s linear;
+    }
+
+    @keyframes masuk {
+      0% {
+        background: rgba(255, 255, 255, 0.01);
+      }
+      50% {
+        background: rgba(255, 255, 255, 0.01);
+        box-shadow: 0px 0px 25px 0px #000 inset;
+        opacity: 50%;    
+      }
+      100% {
+      }
+    }
+
+    @font-face {
+      font-family: "acorn";
+      src: url("/HTML-CSS/font/acorn.woff") format("woff");
+    }
