@@ -20,12 +20,12 @@
   <title>my portofolio</title>
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden ">
   <!-- nav start -->
   <nav
-    class="flex justify-center items-center max-sm:h-14 max-sm:w-[230px] w-96 h-16 ms-[495px] max-sm:ms-[140px] fixed rounded-full mt-5 flex justify-center items-center backdrop-blur-[4px] z-[100]"
+    class="flex justify-center items-center max-sm:h-14 max-sm:w-[230px] w-96 h-16 ms-[495px] max-sm:ms-[140px] max-md:right-[6rem] fixed rounded-full mt-5 backdrop-blur-[4px] z-[100] max-md:w-[360px] max-md:h-[20px]"
     id="navContainer">
-    <ul class="flex justify-center leading-[64px] gap-[1rem]">
+    <ul class="flex justify-center leading-[64px] gap-[1rem] max-md:text-[12px]">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
       <li><a href="#">Contact</a></li>
@@ -34,30 +34,30 @@
   <!-- nav end -->
 
   <!-- acsen bullet -->
-  <div class="md:w-[40px] w-[400px]  h-[400px] bg-blue-500 rounded-full fixed right-[-40px] top-[-20px] "></div>
-<div class="w-[400px] h-[400px] bg-yellow-500 rounded-full fixed left-[-40px] top-[-20px]"></div>
+  <div class="max-md:h-[300px] max-md:w-[300px] w-[400px] h-[400px] bg-blue-500 rounded-full fixed right-[30px] top-[-20px] overflow-hidden"></div>
+  <div class="max-md:h-[300px] max-md:w-[300px] w-[400px] h-[400px] bg-[yellow] rounded-full fixed left-[-50px] top-[-20px] overflow-hidden"></div>
 <!-- acsen bullet -->
 
-  <div class="w-screen flex flex-col absolute bg-slate/20 backdrop-blur-[10rem]">
+  <div class="w-full flex flex-col absolute bg-slate/20 backdrop-blur-[10rem] overflow-x-hidden">
 
     <section class="max-sm:h-[500px] md:h[700px] h-screen w-full flex justify-center items-center relative" data-aos="fade-down">
-      <img src="img/star-2.svg" alt="star" data-aos="fade-right" data-aos-delay="500"
-        class="absolute right-[180px] bottom-[200px] max-sm:right-[65px] max-sm:top-[180px] max-sm:w-[30px] hover:rotate-45" />
+      <img src="img/star-2.svg" alt="star" data-aos="fade-left" data-aos-delay="500"
+        class="absolute right-[180px] bottom-[200px] max-sm:right-[65px] max-sm:top-[180px] max-sm:w-[30px] max-md:right-[5rem] max-md:top-[3rem] max-md:w-[200px] max-md:h-[200px]" />
       <div
-        class="mx-auto text-center font-bold text-8xl text-[#6C54CF] max-sm:text-4xl max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
-        <h1 class="max-sm:ms-[30px]">Hi. I'm Fadli. <br> A Web Development.</h1>
-        <p class="max-sm:text-[14px] text-[20px] mt-5 font-normal text-center max-sm:ms-[15px] max-sm:leading-[20px]">
+        class="mx-auto text-center font-bold text-8xl text-[#6C54CF] max-sm:text-4xl max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center max-md:text-[14px]">
+        <h1 class="max-sm:ms-[30px] max-md:text-[40px] font-bold">Hi. I'm Fadli. <br> A Web Development.</h1>
+        <p class="max-sm:text-[14px] max-md:text-[14px] text-[20px] mt-5 font-normal text-center max-sm:ms-[15px] max-md:ms-[0px] max-sm:leading-[20px]">
           I'm passionate about crafting experiences that are engaging,
           accessible, and user-centric.
         </p>
       </div>
-      <img src="img/star-2.svg" alt="star" data-aos="fade-left" data-aos-delay="500"
-        class="absolute left-[290px] top-[200px] max-sm:left-[70px] max-sm:top-[305px] max-sm:w-[30px] " />
+      <img src="img/star-2.svg" alt="star" data-aos="fade-right" data-aos-delay="500"
+        class="absolute left-[290px] top-[200px] max-sm:left-[70px] max-sm:top-[305px] max-sm:w-[30px] max-md:left-[4.9rem] min-md:top-[3rem]" />
     </section>
     <section class="max-sm:h-[500px] h-full w-full mb-[200px]">
       <div class="flex justify-between max-sm:block">
         <div
-          class="w-[400px] h-[320px] overflow-hidden bg-white ms-[20px] rounded-[10px] container relative drop-shadow-2xl max-sm:w-[90%] max-sm:mb-[20px] max-sm:mx-[20px]"
+          class="w-[400px] h-[320px] overflow-x-hidden bg-white ms-[20px] rounded-[10px] container relative drop-shadow-2xl max-sm:w-[90%] max-sm:mb-[20px] max-sm:mx-[20px]"
           data-aos="fade-right" data-aos-delay="500">
           <div class="text-[#6C54CF] text-1 opacity-0 p-4 transition duration-500 delay-150">
             <h1 class=" transition duration-300">My Web</h1>
@@ -82,7 +82,7 @@
       </div>
 
     </section>
-    <footer class="w-full py-[50px] flex justify-evenly items-center max-sm:flex-col 2xl:gap-[5rem]" data-aos="fade-up" data-aos-delay="500">
+    <footer class="w-full py-[50px] flex max-md:flex-col justify-evenly items-center max-sm:flex-col 2xl:gap-[5rem] overflow-x-hidden" data-aos="fade-up" data-aos-delay="500">
       <div class="flex flex-col max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:mx-[25px] ">
         <div
           class="ms-[20px] py-[10px] px-[15px] bg-white rounded-full flex items-center gap-[20px] max-sm:text-left max-sm:h-[80px] fotter-card">

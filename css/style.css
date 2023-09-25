@@ -1,6 +1,11 @@
-body {
-  font-family: 'acorn';
-  scroll-behavior: smooth;
+*,
+body,
+html {
+  font-family: 'acorn';  
+}
+body{
+
+  overflow-x: hidden;
 }
 
 .container:hover .image {
@@ -43,5 +48,5 @@ footer {
 
 @font-face {
   font-family: "acorn";
-  src: url("/HTML-CSS/font/acorn.woff") format("woff");
+  src: url("../font/acorn.woff") format("woff");
 }
