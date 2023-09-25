@@ -1,115 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- AOS JS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- tailwind css -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- google font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@400;500;700;800&display=swap" rel="stylesheet"/>
-    <!-- MY CSS -->
-    <link rel="stylesheet" href="css/style.css">
 
-    <title>my portofolio</title>
-  </head>
-  <body style="
-      font-family: 'acorn';
-      background: radial-gradient(
-        263.98% 139.44% at 57.71% -5.87%,
-        #98ceff 0%,
-        #9ee0b0 35.94%,
-        #e0ecf6 100%
-      );
-    "
-   class="overflow-x-hidden">
-   <nav
-     class="flex justify-center items-center w-96 h-16 ms-[495px] fixed rounded-full mt-5 flex justify-center items-center backdrop-blur-lg z-[100]"
-     id="navContainer"
-   >
-     <ul class="flex justify-center items-center leading-[64px] gap-[1rem]">
-       <li><a href="#">Home</a></li>
-       <li><a href="#">About</a></li>
-       <li><a href="#">Contact</a></li>
-     </ul>
-   </nav>
-  <div class="w-[400px] h-[400px] bg-blue-500 rounded-full fixed right-[-40px] top-[-20px] "></div>
-  <div class="w-[400px] h-[400px] bg-yellow-500 rounded-full fixed left-[-40px] top-[-20px]" ></div>
-    <div class="w-full z-50 absolute bg-slate/20 backdrop-blur-[20rem]">
-      <section class="h-screen w-full flex justify-center items-center" data-aos="fade-down">
-        <img src="/img/star-2.svg" alt="star" class="mt-[250px] me-[80px] " />
-        <div class="text-center font-bold text-8xl text-[#6C54CF]">
-          <h1>Hi. I'm Fadli.</h1>
-          <h1>A Web Development.</h1>
-          <p class="text-[20px] mt-5 font-normal w-[700px]">
-            I'm passionate about crafting experiences that are engaging,
-            accessible, and user-centric.
-          </p>
-        </div>
-        <img src="/img/star-2.svg" alt="star" class="mb-[250px]" />
-      </section>
-      <section class="h-screen w-full">
-        <div class="flex justify-between">
-          <div class="w-[500px] h-[320px] overflow-hidden bg-white ms-[20px] rounded-[10px] container relative drop-shadow-2xl" data-aos="fade-right"  data-aos-delay="100">
-            <div class="text-[#6C54CF] text-1 opacity-0 p-4 transition duration-500 delay-150">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- AOS JS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- tailwind css -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700&family=Poppins:wght@400;500;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- MY CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>my portofolio</title>
+</head>
+
+<body class="overflow-x-hidden">
+  <!-- nav start -->
+  <nav
+    class="flex justify-center items-center max-sm:h-14 max-sm:w-[230px] w-96 h-16 ms-[495px] max-sm:ms-[140px] fixed rounded-full mt-5 flex justify-center items-center backdrop-blur-[4px] z-[100]"
+    id="navContainer">
+    <ul class="flex justify-center leading-[64px] gap-[1rem]">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- nav end -->
+
+  <!-- acsen bullet -->
+  <div class="S w-[400px]  h-[400px] bg-blue-500 rounded-full fixed right-[-40px] top-[-20px] "></div>
+<div class="w-[400px] h-[400px] bg-yellow-500 rounded-full fixed left-[-40px] top-[-20px]"></div>
+<!-- acsen bullet -->
+
+  <div class="w-screen z-50 absolute bg-slate/20 backdrop-blur-[10rem]">
+
+    <section class="max-sm:h-[500px] h-screen w-full flex justify-center items-center relative" data-aos="fade-down">
+      <img src="/img/star-2.svg" alt="star" data-aos="fade-right" data-aos-delay="500"
+        class="absolute right-[180px] bottom-[200px] max-sm:right-[65px] max-sm:top-[180px] max-sm:w-[30px] hover:rotate-45" />
+      <div
+        class="mx-auto text-center font-bold text-8xl text-[#6C54CF] max-sm:text-4xl max-sm:flex max-sm:flex-col max-sm:justify-center max-sm:items-center">
+        <h1 class="max-sm:ms-[30px]">Hi. I'm Fadli. <br> A Web Development.</h1>
+        <p class="max-sm:text-[14px] text-[20px] mt-5 font-normal text-center max-sm:ms-[15px] max-sm:leading-[20px]">
+          I'm passionate about crafting experiences that are engaging,
+          accessible, and user-centric.
+        </p>
+      </div>
+      <img src="/img/star-2.svg" alt="star" data-aos="fade-left" data-aos-delay="500"
+        class="absolute left-[290px] top-[200px] max-sm:left-[70px] max-sm:top-[305px] max-sm:w-[30px] " />
+    </section>
+    <section class="max-sm:h-[500px] h-full w-full mb-[200px]">
+      <div class="flex justify-between max-sm:block">
+        <div
+          class="w-[400px] h-[320px] overflow-hidden bg-white ms-[20px] rounded-[10px] container relative drop-shadow-2xl max-sm:w-[90%] max-sm:mb-[20px] max-sm:mx-[20px]"
+          data-aos="fade-right" data-aos-delay="500">
+          <div class="text-[#6C54CF] text-1 opacity-0 p-4 transition duration-500 delay-150">
             <h1 class=" transition duration-300">My Web</h1>
-            <p class="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod?</p>
+            <p class="mt-3 max-sm:mt-[8px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, quod?</p>
           </div>
-          <img src="img/ai.png" alt="" class="image absolute top-0 z-10 transition duration-300 ease-in-out rounded-xl object-fill">
+          <img src="img/ai.png" alt=""
+            class="image absolute top-0 z-10 transition duration-300 ease-in-out rounded-xl object-fill">
         </div>
 
-        <div class="w-[700px] h-[320px] overflow-hidden bg-white me-[20px] rounded-[10px] container relative drop-shadow-2xl"  data-aos="fade-left"  data-aos-delay="300">
+        <div
+          class="w-[700px] h-[320px] overflow-hidden bg-white me-[20px] rounded-[10px] container relative drop-shadow-2xl max-sm:w-[90%] max-sm:mx-[20px]"
+          data-aos="fade-left" data-aos-delay="500">
           <div class="text-[#6C54CF] text-1 opacity-0 p-4 transition duration-500 delay-150">
             <h1 class=" transition duration-300">My github</h1>
-            <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ut, fugit dolorem voluptates rem obcaecati repellendus cumque error voluptatum velit.</p>
+            <p class="mt-3 max-sm:mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ut, fugit
+              dolorem voluptates
+              rem obcaecati repellendus cumque error voluptatum velit.</p>
           </div>
-          <img src="img/github.png" alt="" class="image h-full absolute top-0 z-10 transition duration-300 ease-in-out rounded-xl object-fill">
+          <img src="img/github.png" alt=""
+            class="image h-full absolute top-0 z-10 transition duration-300 ease-in-out rounded-xl object-fill">
         </div>
       </div>
-<div class="flex justify-center ">
-  <div class="w-full h-[320px] overflow-hidden bg-white me-[20px] rounded-[10px] container relative mt-[50px]"  data-aos="zoom-in-down"  data-aos-delay="500">
-    <div class="text-[#6C54CF] text-1 opacity-0 p-4 transition duration-500 delay-150">
-      <h1 class=" transition duration-300">My github</h1>
-      <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi ut, fugit dolorem voluptates rem obcaecati repellendus cumque error voluptatum velit.</p>
-    </div>
-    <img src="img/github.png" alt="" class="image absolute top-0 z-10 transition duration-300 ease-in-out rounded-xl object-fill">
-  </div>
-</div>
 
-      </section>
-      <footer class="w-full py-[50px] flex justify-evenly mt-[200px]" data-aos="fade-up" data-aos-delay="500">
-        <div class="flex flex-col">
-          <div class="ms-[20px] w-[400px] h-[100px] bg-slate-100 rounded-full flex items-center gap-[20px]">
-            <img src="img/instagram.jpeg" alt="" class="object-fill rounded-full ms-[20px]" width="50px" height="50px  ">
-            <div class="text-[#6C54CF]">
-              <h1 class="text-lg font-bolder">Follow My Instagram</h1>
-              <a href="#" class="text-base">@muhfadli</a>
-            </div>
+    </section>
+    <footer class="w-full py-[50px] flex justify-evenly items-center max-sm:flex-col 2xl:gap-[5rem]" data-aos="fade-up" data-aos-delay="500">
+      <div class="flex flex-col max-sm:justify-center max-sm:items-center max-sm:text-center max-sm:mx-[25px] ">
+        <div
+          class="ms-[20px] py-[10px] px-[15px] bg-white rounded-full flex items-center gap-[20px] max-sm:text-left max-sm:h-[80px] fotter-card">
+          <img src="img/instagram.jpeg" alt="" class="object-fill rounded-full ms-[8px]" width="50px" height="50px  ">
+          <div class="text-[#6C54CF]">
+            <h1 class="text-lg font-bolder">Follow My Instagram</h1>
+            <a href="#" class="text-base">@muhfadli</a>
           </div>
-          <h1 class="text-lg ms-[40px] mt-[20px] text-yellow-500">©Creat By Fad</h1>
         </div>
-        <ul class="me-[20px] ">
-          <ol class="text-black">Social Media</ol>
-          <li><a href="#" class="hover:text-[#6C54CF]">YouTube</a></li>
-          <li><a href="#" class="hover:text-[#6C54CF]">Facebokk</a></li>
-          <li><a href="#" class="hover:text-[#6C54CF]">GitHub</a></li>
-          <li><a href="#" class="hover:text-[#6C54CF]">WhatsApp</a></li>
-        </ul>
-        <ul class="me-[70px]">
-          <li><a href="#" class="hover:text-[#6C54CF]">Home</a></li>
-          <li><a href="#" class="hover:text-[#6C54CF]">About</a></li>
-          <li><a href="#" class="hover:text-[#6C54CF]">Contact</a></li>
-        </ul>
-      </footer>
-      <script src="js/main.js"></script>
-      <!-- JS AOS -->
-      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-      <script>
-        AOS.init();
-      </script>
-    </body>
-  </div>
+      </div>
+      <ul class=" flex gap-[1rem] max-sm:justify-center max-sm:text-center mt-5">
+        <ol class="text-black">Social Media</ol>
+        <li><a href="#" class="hover:text-[#6C54CF]">WhatsApp</a></li>
+        <li><a href="#" class="hover:text-[#6C54CF]">Facebokk</a></li>
+        <li><a href="#" class="hover:text-[#6C54CF]">YouTube</a></li>
+        <li><a href="https://github.com/f-a-d/" class="hover:text-[#6C54CF]">GitHub</a></li>
+      </ul>
+      <ul class=" flex gap-[1rem] max-sm:justify-center max-sm:text-center max-sm:me-[20px] mt-[20px]">
+        <li><a href="#" class="hover:text-[#6C54CF]">Home</a></li>
+        <li><a href="#" class="hover:text-[#6C54CF]">About</a></li>
+        <li><a href="#" class="hover:text-[#6C54CF]">Contact</a></li>
+      </ul>
+      <h1 class=" text-yellow-500 text-[16px] text-center mt-3">©Creat By Fad</h1>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- JS AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+</body>
+</div>
 </html>

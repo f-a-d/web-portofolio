@@ -1,5 +1,12 @@
 body {
   transition: all ease-in-out .3s;
+  font-family: 'acorn';
+  background: radial-gradient(
+    263.98% 139.44% at 57.71% -5.87%,
+    #98ceff 0%,
+    #9ee0b0 35.94%,
+    #e0ecf6 100%
+  );
 }
 
 .container:hover .image {
@@ -32,6 +39,12 @@ footer {
   box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 35px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fotter-card{
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
 }
 
 @font-face {
